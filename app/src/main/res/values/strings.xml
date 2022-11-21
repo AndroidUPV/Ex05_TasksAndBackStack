@@ -1,0 +1,23 @@
+<!--
+  ~ Copyright (c) 2022
+  ~ David de Andrés and Juan Carlos Ruiz
+  ~ Development of apps for mobile devices
+  ~ Universitat Politècnica de València
+  -->
+
+<resources>
+    <string name="app_name">Ex05_TasksAndBackStack</string>
+    <!--Text to show in CoreActivity's label: current_class (level)-->
+    <string name="launch_mode_and_level">%1$s (%2$d)</string>
+    <!--Text to show in CoreActivity's buttons-->
+    <string name="standard">standard</string>
+    <string name="single_top">singleTop</string>
+    <string name="single_task">singleTask</string>
+    <string name="single_instance">singleInstance</string>
+    <string name="single_instance_per_task">singleInstancePerTask</string>
+    <string name="flag_new_task">FLAG_ACTIVITY_NEW_TASK</string>
+    <string name="flag_single_top">FLAG_ACTIVITY_SINGLE_TOP</string>
+    <string name="flag_clear_top">FLAG_ACTIVITY_CLEAR_TOP</string>
+    <!--Text to show in a Toast when onNewIntent() is called-->
+    <string name="new_intent">onNewIntent() called for %1$s</string>
+</resources>
