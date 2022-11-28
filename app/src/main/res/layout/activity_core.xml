@@ -18,6 +18,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -25,63 +26,54 @@
             android:id="@+id/bLaunchModeStandard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/standard" />
 
         <Button
             android:id="@+id/bLaunchModeSingleTop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/single_top" />
 
         <Button
             android:id="@+id/bLaunchModeSingleTask"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/single_task" />
 
         <Button
             android:id="@+id/bLaunchModeSingleInstance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/single_instance" />
 
         <Button
             android:id="@+id/bLaunchModeSingleInstancePerTask"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/single_instance_per_task" />
 
         <Button
             android:id="@+id/bFlagActivityNewTask"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/flag_new_task" />
 
         <Button
             android:id="@+id/bFlagActivitySingleTop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/flag_single_top" />
 
         <Button
             android:id="@+id/bFlagActivityClearTop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/flag_clear_top" />
 
         <TextView
             android:id="@+id/tvCurrentLaunchMode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             tools:text="LaunchMode: standard, Level: 0" />
     </LinearLayout>
