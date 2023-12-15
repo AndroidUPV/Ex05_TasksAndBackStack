@@ -9,11 +9,8 @@
  * (See accompanying file LICENSE.txt)
  */
 
-package upv.dadm.ex05_tasksandbackstack
-
-/**
- * CoreActivity with Intent flag = Intent.FLAG_ACTIVITY_NEW_TASK.
- * A new instance of FlagNewTaskActivity is created at the root of a new task or
- * the task already holding it goes to foreground in its current state.
- */
-class FlagNewTaskActivity : CoreActivity()
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id("com.android.application") version "8.2.0" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.10" apply false
+}
